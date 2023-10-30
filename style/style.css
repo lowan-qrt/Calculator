@@ -8,10 +8,11 @@ html {
     overflow-x: hidden;
     width: 100vw;
     height: 100vh;
+    font-size: large;
 }
 
 header {
-    margin: 5%;
+    margin: 4% 5% 5%;
     text-align: center;
 }
 
@@ -32,16 +33,21 @@ footer {
     margin: auto;
     border: solid 2px rgb(000, 000, 000);
     border-radius: 10px;
+    box-shadow: 6px -2px;
     padding: 4%;
     width: 500px;
+    background-color:lightyellow;
 }
 
 #screen {
     margin-bottom: 5%;
     padding: 10px;
     border: solid black;
-    text-align: right;
     box-shadow: inset 6px -2px teal;
+    color: rgb(0, 80, 0);
+    text-shadow: 1.5px -0.5px 1px;
+    text-align: right;
+    background-color: rgba(255, 255, 0, 0.5);
 }
 
 #keyboard {
@@ -65,6 +71,13 @@ footer {
     border: solid 2px black;
     border-radius: 10px;
     box-shadow: 6px -2px teal;
+    font-size: large;
+    font-weight: bold;
+}
+
+.row button:hover {
+    cursor:pointer;
+    background-color: orange;
 }
 
 
