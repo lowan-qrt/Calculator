@@ -28,6 +28,7 @@ const addition = document.getElementById('addition');
 // Others
 let x = 0;  // result
 let commaCondition = true;
+let substractionCondition = true;
 
 
 // Action events
@@ -143,6 +144,12 @@ multiplication.addEventListener('click', function() {
 
 substraction.addEventListener('click', function() {
     console.log('Substraction');
+    if (substractionCondition) {
+        screen.textContent += ' - ';
+        substractionCondition = false;
+    } else {
+        console.log('Error: minus sign ever used.');
+    }
 });
 
 addition.addEventListener('click', function() {
