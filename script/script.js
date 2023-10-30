@@ -160,10 +160,13 @@ allClear.addEventListener('click', function() {
     console.log('All clear');
     x = 0;
     commaCondition = true;
+    substractionCondition = true;
     screen.textContent = x;
 });
 
 equals.addEventListener('click', function() {
     console.log('EQUALS');
     screen.textContent = x;
+    commaCondition = true;
+    substractionCondition = true;
 });
